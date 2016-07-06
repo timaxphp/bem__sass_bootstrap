@@ -3,6 +3,11 @@ html {
   -ms-text-size-adjust: 100%; // 2
   -webkit-text-size-adjust: 100%; // 2
 }
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
 
 //
 // Remove default margin.
